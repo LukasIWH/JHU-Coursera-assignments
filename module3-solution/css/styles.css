@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+}
+
+.container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 2em;
+  padding-top: 1.5em;
+  height: 100px;
+}
+
+.navbar-brand h1 {
+	color: #000;
+	margin: 0;
+	font-weight: bold;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
+
+.navbar-default {
+	background-color: #777777;	
+	border-color: #2d2d2d;
+}
+
+.menu-box1 {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #888888;
+}
+
+.navbar-toggle {
+	background-color: #6aff00;
+}
+
+#collapsable-nav {
+	background-color: #b9b9b9;
+}
+
+#nav-list a {
+	text-transform: uppercase;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.menu-box1 h3 {
+	padding-top: 20px;
+	color: #000;
+}
+
+.menu-box1 p {
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	color: #000;
+	font-size: 16px;
+}
+
+#nav-list a:hover {
+	color: #6aff00;
+}
+
+#nav-list hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+/*extra small*/
+@media (max-width: 767px) {
+
+}
+
+/*small*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#collapsable-nav {
+		background-color: #777777;
+	}
+}
+
+/*medium*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#collapsable-nav {
+		background-color: #777777;
+	}
+}
+
+/*large*/
+@media (min-width: 1200px) {
+	#collapsable-nav {
+		background-color: #777777;
+	}
+}
